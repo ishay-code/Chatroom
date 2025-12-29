@@ -1,4 +1,4 @@
-ishay heller - ishay-code - ishayhe@gmail.com
+ishay heller 
 
 # Chatroom Web Application
 
@@ -32,5 +32,6 @@ with user registration and authentication functionalities.
    ```
 3. Run the application:
    run the www file in the bin directory
+
 
 
