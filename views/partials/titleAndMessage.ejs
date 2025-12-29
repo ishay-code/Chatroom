@@ -1,0 +1,28 @@
+
+<% if (pageTitle) { %>
+    <div class="row mb-2">
+        <div class="col text-center">
+            <h1><%= pageTitle %></h1>
+        </div>
+    </div>
+<% } %>
+
+<!-- Message Section -->
+<% if (message) { %>
+    <div class="row mb-2">
+        <div class="col text-center">
+            <h5><%= message %></h5>
+        </div>
+    </div>
+<% } %>
+
+
+<!-- error Section -->
+<% if (error) { %>
+    <div class="row mb-2">
+        <div class="col text-center text-danger">
+
+                <h6 id="errorMessage"><%= error %></h6>
+        </div>
+    </div>
+<% } %>
